@@ -7,7 +7,7 @@ import . "github.com/pakohan/go-json"
 
 …
 
-	o := O{
+	obj := O{
 		"nested": O{
 			"key1":         "test",
 			"key2":         O{"anotherKey": "value"},
