@@ -7,10 +7,10 @@ import . "github.com/pakohan/go-json"
 
 …
 
-	o := o{
-		"nested": o{
+	o := O{
+		"nested": O{
 			"key1":         "test",
-			"key2":         o{"anotherKey": "value"},
+			"key2":         O{"anotherKey": "value"},
 			"uselessArray": A{"A", "B", "C"},
 		},
 	}
